@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item1"
+        android:title="Check map"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item2"
+        android:title="Book appointment"
+        app:showAsAction="never" >
+    </item>
+
+    <item
+        android:id="@+id/item3"
+        android:title="Call NBTC"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item4"
+        android:title="View records"
+        app:showAsAction="never" />
+</menu>

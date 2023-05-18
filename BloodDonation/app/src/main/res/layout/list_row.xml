@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/dononame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Donor nameroo"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/bloodtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dononame"
+        android:layout_marginTop="7dp"
+        android:hint="Bloodtype"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/ddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dononame"
+        android:layout_alignBottom="@+id/dononame"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7dp"
+        android:hint="Donation"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ddate"
+        android:layout_alignBaseline="@+id/bloodtype"
+        android:layout_alignBottom="@+id/bloodtype"
+        android:layout_alignParentRight="true"
+        android:hint="ID"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+</RelativeLayout>

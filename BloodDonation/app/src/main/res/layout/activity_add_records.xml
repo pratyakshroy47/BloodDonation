@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AddRecords">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundborderedittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Receiver name"
+        android:inputType="textCapWords"
+        android:textColor="@color/black"
+        android:textColorHint="#696969"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundborderedittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Donor name"
+        android:inputType="textCapWords"
+        android:textColor="@color/black"
+        android:textColorHint="#696969"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundborderedittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="ID"
+        android:inputType="textCapWords"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textColorHint="#696969"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundborderedittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Blood type"
+        android:inputType="textCapCharacters"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textColorHint="#696969"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundborderedittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Donation date(dd-mm-yy)"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#696969"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundborderedittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Receive date(dd-mm-yy)"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#696969"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:text="Add details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:background="@drawable/bhelp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

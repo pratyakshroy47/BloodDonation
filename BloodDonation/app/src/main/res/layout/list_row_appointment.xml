@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dononame"
+        android:layout_alignBottom="@+id/dononame"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7dp"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/dononame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Donor name"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dononame"
+        android:layout_marginTop="7dp"
+        android:hint="Donation date"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ddate"
+        android:layout_alignBottom="@+id/ddate"
+        android:layout_alignParentRight="true"
+        android:hint="ID"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+</RelativeLayout>
